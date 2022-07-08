@@ -12,7 +12,12 @@ void min_matrix(int **a) {
 				min = a[i][j];
 		}
 		mins[i] = min;
-
+	}
+	int max_of_min = mins[0];
+	for (int i = 0; i < 5; i++)
+	{
+		if (mins[i] > max_of_min)
+			max_of_min = mins[i];
 	}
 
 
@@ -31,6 +36,12 @@ void max_matrix(int **a) {
 		}
 		maxes[i] = max;
 
+	}
+	int min_of_max = maxes[0];
+	for (int i = 0; i < 5; i++)
+	{
+		if (maxes[i] < min_of_max)
+			min_of_max = maxes[i];
 	}
 
 }
