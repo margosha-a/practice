@@ -19,6 +19,13 @@ void min_matrix(int **a) {
 		if (mins[i] > max_of_min)
 			max_of_min = mins[i];
 	}
+	printf("The matrix of the minimums: ");
+	for (int i = 0; i < 5; i++)
+	{
+		printf("%d ", mins[i]);
+	}
+	printf("\n");
+	printf("The maximum of the minimums = %d", max_of_min);
 
 
 }
@@ -43,5 +50,12 @@ void max_matrix(int **a) {
 		if (maxes[i] < min_of_max)
 			min_of_max = maxes[i];
 	}
+	printf("The matrix of the maximums: ");
+	for (int i = 0; i < 5; i++)
+	{
+		printf("%d ", maxes[i]);
+	}
+	printf("\n");
+	printf("The minimum of the maximum = %d", min_of_max);
 
 }
