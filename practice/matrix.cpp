@@ -15,6 +15,7 @@ void min_matrix(int **a) {
 
 	}
 
+
 }
 
 
