@@ -1,6 +1,15 @@
 #include "matrix.h"
 #include <stdio.h>
 
+/**
+* Отримання максимального значення серед мінімальних кожної строки
+*
+* @param а
+* @param mins
+* @param min
+* @param max_of_min
+* @return функція нічого не повертає
+*/
 void min_matrix(int **a) {
 	int mins[5];
 	for (int i = 0; i < 5; i++)
@@ -26,8 +35,6 @@ void min_matrix(int **a) {
 	}
 	printf("\n");
 	printf("The maximum of the minimums = %d", max_of_min);
-
-
 }
 
 
