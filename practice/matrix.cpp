@@ -37,7 +37,15 @@ void min_matrix(int **a) {
 	printf("The maximum of the minimums = %d", max_of_min);
 }
 
-
+/**
+* Отримання мінімального значення серед максимальних кожної строки
+*
+* @param а
+* @param maxes
+* @param max
+* @param min_of_max
+* @return функція нічого не повертає
+*/
 void max_matrix(int **a) {
 	int maxes[5];
 	for (int i = 0; i < 5; i++)
