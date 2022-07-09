@@ -1,14 +1,15 @@
-#include <stdio.h>
-#include "matrix.h"
-
 /**
 * @file practice.cpp
 * @author Зінченко М.Д., гр. 515Б
 * @date 08.07.2022
 * @brief Практична робота 
 *
-* Виконання дій над елементами матриць 
+* Виконання дій над елементами матриць  
 */
+#include <stdio.h>
+#include "matrix.h"
+
+
 int main() {
 	int *pa[5];
 	int a[5][5];
